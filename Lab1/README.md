@@ -8,15 +8,15 @@ Lab1  Projectの作成
 
 ## 目的とゴール
 
-Code Engineではまず最初にProjectを作成します。Projectを利用することで、アプリやJob、Secretなどをグルーピング化し、開発環境・本番環境であったり、Aプロジェクト、Bプロジェクトのように環境を分離し管理することが可能です
+Code Engineではまず最初にProjectを作成します。Projectを利用することで、アプリやJob、Secretなどをグルーピング化し、開発環境・本番環境であったり、Aプロジェクト、Bプロジェクトのように環境を分離し管理することが可能です。プロジェクト作成後は、プロジェクトで利用するContainer Registryの認証の設定をおこないます
 
 ゴール
 
 * Projectの作成が行える
-   
+* Registryとの連携が行える
 
 ## プロジェクトの作成
-1. こちらの[URL](https://cloud.ibm.com/codeengine/projects)または、IBM Cloudの画面から、Code Engineのプロジェクトにアクセスします
+1. こちらの[URL](https://cloud.ibm.com/containers/serverless/projects)または、IBM Cloudの画面から、サーバーレス・プロジェクトにアクセスします
 
    ![image-01](./img/image-01.png)
 
@@ -53,6 +53,39 @@ Code Engineではまず最初にProjectを作成します。Projectを利用す�
 ![image-05](./img/image-05.png)
 
 
+
+## レジストリとの連携
+
+1. 続いて、このプロジェクトで利用するContainer Registryの認証を設定します。右のメニューから"シークレットおよびconfigmap"から、作成をクリックします
+   ![image-20250513163540958](./img/image-20250513163540958.png)
+
+2. レジストリー・シークレットを選択します
+   ![image-20250513163617656](./img/image-20250513163617656.png)
+
+3. 以下必要な内容を記載し作成をクリックします![image-20250513163719731](./img/image-20250513163719731.png)
+
+   入力項目
+
+   * シークレット名：ICR
+
+   * ターゲット・レジストリー：IBM Container Registry
+
+   * ロケーション：東京
+
+   * IAM API キー：https://cloud.ibm.com/iam/apikeysにて発行したAPI-Keyを記載
+
+     ※APIキーの発行方法
+
+     * [APIキー](https://cloud.ibm.com/iam/apikeys)画面にて作成をクリック
+       * 名前：例（codeengine-icr）
+       * 漏洩対策：漏洩したキーを無効にする
+       * セッションの作成：いいえ
+     * 作成後にコピーをクリック
+     * ※API-keyは作成直後の一度だけ確認が可能です。必要に応じてメモしてください
+
+4. ”レジストリ・シークレットが作成されました”と表示されればOKです
+
+   ![image-20250513163829298](./img/image-20250513163829298.png)
 
 ## 最後に
 お疲れ様でした！、次の[Lab 2](../Lab2)に進んでください
