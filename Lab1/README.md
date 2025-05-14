@@ -72,7 +72,7 @@ Code Engineではまず最初にProjectを作成します。Projectを利用す�
 
    * ロケーション：東京
 
-   * IAM API キー：https://cloud.ibm.com/iam/apikeysにて発行したAPI-Keyを記載
+   * IAM API キー：https://cloud.ibm.com/iam/apikeys にて発行したAPI-Keyを記載
 
      ※APIキーの発行方法
 
