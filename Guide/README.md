@@ -166,11 +166,17 @@ Guide ハンズオン実施に向けた環境セットアップ（権限・メ�
 1. IBM Cloudにログインします
 2. ログイン後画面右上の通知より、「アカウント Action required: You are invited to join an account in IBM Cloud」から「Join now」をクリックし、IBM Cloudアカウントに参加します
 
+	![image-20250625193423095](./img/image-20250625193423095.png)
+
 ### 新たにIBM Cloudをご利用される方
 
 1. 招待メールを確認し、IBM Cloudアカウントにご参加ください
 
+   件　名：Action required: You are invited to join an account in IBM Cloud
 
+   差出人：no-reply@cloud.ibm.com
+   
+   ![image-20250625193634567](./img/image-20250625193634567.png)
 
 ## 最後に
 
