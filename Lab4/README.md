@@ -189,7 +189,7 @@ Lab4 CI/CDを利用したアプリのデプロイ
 
    
 
-2. Pull requestsの画面にて変更内容を確認し、Creete pull requestをクリックします
+2. Pull requestsの画面にて変更内容を確認し、Create pull requestをクリックします
 
    ![image-20241007142719897](./img/image-20241007142719897.png)
 
