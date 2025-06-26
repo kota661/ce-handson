@@ -40,7 +40,7 @@ Code EngineのアプリケーションではHTTPベースのアプリのデプ�
    ![image-03](./img/image-03.png)
 
    * 名前：application-{お名前}-webapp
-   * コード：既存のkジョンテなイメージを使用 を選択 
+   * コード：既存のコンテナイメージを使用 を選択 
 
    * イメージ参照: kota661/webapp-bg:v1
 
