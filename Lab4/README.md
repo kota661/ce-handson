@@ -49,7 +49,11 @@ Lab4 CI/CDを利用したアプリのデプロイ
 
    ![image-20241007135717066](./img/image-20241007135717066.png)
 
-2. forkしたリポジトリのURLをこのあと利用するため、メモしてください
+2. Create a new forkの画面にて、「Copy the main branch only」 のチェックを外し、「Create fork」をクリック
+
+   ![image-20250718160559689](./img/image-20250718160559689.png)
+
+3. forkしたリポジトリのURLをこのあと利用するため、メモしてください
 
    ![image-20241007135948605](./img/image-20241007135948605.png)
 
